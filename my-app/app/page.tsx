@@ -85,7 +85,7 @@ export default function Home() {
                 gap-16 
                 shadow-xl overflow-hidden"
       >
-        <div className="flex flex-col gap-5 m-20">
+        <div className="flex flex-col gap-5 m-20 p-6">
           <h1 className="text-[48px] md:text-[65px] font-bold text-black leading-tight text-center">
             Bagaimana cara kerjanya
           </h1>
@@ -94,15 +94,218 @@ export default function Home() {
           </p>
         </div>
 
-        <div>
-          <div className="flex flex-col bg-[#F37E2E] w-70 h-80 rounded-3xl p-8 items-center gap-6 m-10 float-left shadow-lg">
-            <div className="rounded-full border bg-white w-25 h-25 "></div>
-            <h3 className="font-semibold text-[20px] text-center">
-              Atur Rencanamu
-            </h3>
-            <p className="text-[14px] text-center">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.{" "}
-            </p>
+        <div className=" card1 flex flex-wrap justify-center">
+          <div>
+            <div className=" card flex flex-col bg-[#F37E2E] w-80 h-100 rounded-3xl p-8 items-center gap-6 m-10 float-left shadow-lg">
+              <div className="rounded-full border bg-white w-25 h-25 "></div>
+              <div className="flex flex-col items-center gap-8">
+                <h3 className="font-semibold text-[24px] text-center">
+                  Atur Rencanamu
+                </h3>
+                <p className="text-[18px] text-center">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.{" "}
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div className=" card2 flex flex-col bg-[#F37E2E] w-80 h-100 rounded-3xl p-8 items-center gap-6 m-10 float-left shadow-lg">
+              <div className="rounded-full border bg-white w-25 h-25 "></div>
+              <div className="flex flex-col items-center gap-8">
+                <h3 className="font-semibold text-[24px] text-center">
+                  Temukan kursusmu
+                </h3>
+                <p className="text-[18px] text-center">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.{" "}
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div className=" card3 flex flex-col bg-[#F37E2E] w-80 h-100 rounded-3xl p-8 items-center gap-6 m-10 float-left shadow-lg">
+              <div className="rounded-full border bg-white w-25 h-25 "></div>
+              <div className="flex flex-col items-center gap-8">
+                <h3 className="font-semibold text-[24px] text-center">
+                  Pesan tempatmu
+                </h3>
+                <p className="text-[18px] text-center">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.{" "}
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div className=" card4 flex flex-col bg-[#F37E2E] w-80 h-100 rounded-3xl p-8 items-center gap-6 m-10 float-left shadow-lg">
+              <div className="rounded-full border bg-white w-25 h-25"></div>
+              <div className="flex flex-col items-center gap-8">
+                <h3 className="font-semibold text-[24px] text-center">
+                  Dapatkan sertifikat
+                </h3>
+                <p className="text-[18px] text-center">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.{" "}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        className="Keempat relative bg-[#D12129] min-h-screen m-7 rounded-3xl 
+                flex flex-col p-8
+                gap-16 
+                shadow-xl overflow-hidden"
+      >
+        <img
+          src="/Pattern-2.png"
+          alt=""
+          className="absolute 
+               -right-10
+               w-225
+               opacity-40
+               rotate-12
+               pointer-events-none"
+        />
+
+        {/* Pattern kiri bawah */}
+        <img
+          src="/Pattern.png"
+          alt=""
+          className="absolute 
+               -left-8
+               w-185
+               opacity-40
+               rotate-5
+               pointer-events-none"
+        />
+
+        <div
+          className="Keempat relative bg-[#D12129] min-h-screen m-7 rounded-3xl 
+             flex flex-col p-8 gap-16 
+             shadow-xl overflow-hidden"
+        >
+          {/* Pattern kanan */}
+          <img
+            src="/Pattern-2.png"
+            alt=""
+            className="absolute 
+               top-0 -right-20
+               w-225
+               opacity-40
+               rotate-12
+               pointer-events-none"
+          />
+
+          {/* Pattern kiri */}
+          <img
+            src="/Pattern.png"
+            alt=""
+            className="absolute 
+               bottom-0 -left-20
+               w-185
+               opacity-40
+               rotate-5
+               pointer-events-none"
+          />
+
+          <div className="flex flex-col p-20 gap-20 z-10">
+            <h1 className="font-bold text-white text-[64px]">Program Kami</h1>
+
+            <div className="flex flex-row gap-12 flex-wrap justify-center">
+              {/* CARD */}
+              <div
+                className="card1 flex flex-col items-center bg-red-800 
+                      w-75 h-130 p-2 gap-6 
+                      shadow-lg rounded-xl"
+              >
+                <img
+                  src="/Rectangle-9.png"
+                  alt="image"
+                  className="w-72 h-58.5 rounded-md"
+                />
+                <div className="flex flex-col gap-5 p-2 text-white">
+                  <p className="text-[14px]">Kelas UI&UX</p>
+                  <h3 className="font-semibold text-[22px]">
+                    Lorem ipsum dolor sit amet
+                  </h3>
+                  <p className="text-[14px]">Online • 9 Kelas</p>
+                </div>
+                <button className="w-60 h-12 bg-white text-black rounded-md">
+                  CTA
+                </button>
+              </div>
+
+              {/* CARD */}
+              <div
+                className="card2 flex flex-col items-center bg-red-800 
+                      w-75 h-130 p-2 gap-6 
+                      shadow-lg rounded-xl"
+              >
+                <img
+                  src="/Rectangle-9.png"
+                  alt="image"
+                  className="w-72 h-58.5 rounded-md"
+                />
+                <div className="flex flex-col gap-5 p-2 text-white">
+                  <p className="text-[14px]">Kelas UI&UX</p>
+                  <h3 className="font-semibold text-[22px]">
+                    Lorem ipsum dolor sit amet
+                  </h3>
+                  <p className="text-[14px]">Online • 9 Kelas</p>
+                </div>
+                <button className="w-60 h-12 bg-white text-black rounded-md">
+                  CTA
+                </button>
+              </div>
+
+              {/* CARD */}
+              <div
+                className="card3 flex flex-col items-center bg-red-800 
+                      w-75 h-130 p-2 gap-6 
+                      shadow-lg rounded-xl"
+              >
+                <img
+                  src="/Rectangle-9.png"
+                  alt="image"
+                  className="w-72 h-58.5 rounded-md"
+                />
+                <div className="flex flex-col gap-5 p-2 text-white">
+                  <p className="text-[14px]">Kelas UI&UX</p>
+                  <h3 className="font-semibold text-[22px]">
+                    Lorem ipsum dolor sit amet
+                  </h3>
+                  <p className="text-[14px]">Online • 9 Kelas</p>
+                </div>
+                <button className="w-60 h-12 bg-white text-black rounded-md">
+                  CTA
+                </button>
+              </div>
+
+              {/* CARD */}
+              <div
+                className="card4 flex flex-col items-center bg-red-800 
+                      w-75 h-130 p-2 gap-6 
+                      shadow-lg rounded-xl"
+              >
+                <img
+                  src="/Rectangle-9.png"
+                  alt="image"
+                  className="w-72 h-58.5 rounded-md"
+                />
+                <div className="flex flex-col gap-5 p-2 text-white">
+                  <p className="text-[14px]">Kelas UI&UX</p>
+                  <h3 className="font-semibold text-[22px]">
+                    Lorem ipsum dolor sit amet
+                  </h3>
+                  <p className="text-[14px]">Online • 9 Kelas</p>
+                </div>
+                <button className="w-60 h-12 bg-white text-black rounded-md">
+                  CTA
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
