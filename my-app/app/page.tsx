@@ -16,6 +16,7 @@ export default function Home() {
             <p>CTA</p>
           </button>
         </div>
+
         <div className="Herorightimg flex flex-col gap-6 m-40 justify-center w-150">
           <img
             src="/Group-33.png"
@@ -153,7 +154,7 @@ export default function Home() {
       </div>
 
       <div
-        className="Keempat relative bg-[#D12129] min-h-screen m-7 rounded-3xl 
+        className="Keempat relative bg-[#0B55C3] min-h-screen m-7 rounded-3xl 
                 flex flex-col p-8
                 gap-16 
                 shadow-xl overflow-hidden"
@@ -182,7 +183,7 @@ export default function Home() {
         />
 
         <div
-          className="Keempat relative bg-[#D12129] min-h-screen m-7 rounded-3xl 
+          className="Keempat relative bg-[#0B55C3] min-h-screen m-7 rounded-3xl 
              flex flex-col p-8 gap-16 
              shadow-xl overflow-hidden"
         >
@@ -216,7 +217,7 @@ export default function Home() {
             <div className="flex flex-row gap-12 flex-wrap justify-center">
               {/* CARD */}
               <div
-                className="card1 flex flex-col items-center bg-red-800 
+                className="card1 flex flex-col items-center bg-white 
                       w-75 h-130 p-2 gap-6 
                       shadow-lg rounded-xl"
               >
@@ -225,21 +226,21 @@ export default function Home() {
                   alt="image"
                   className="w-72 h-58.5 rounded-md"
                 />
-                <div className="flex flex-col gap-5 p-2 text-white">
+                <div className="flex flex-col gap-5 p-2 text-black">
                   <p className="text-[14px]">Kelas UI&UX</p>
                   <h3 className="font-semibold text-[22px]">
                     Lorem ipsum dolor sit amet
                   </h3>
                   <p className="text-[14px]">Online • 9 Kelas</p>
                 </div>
-                <button className="w-60 h-12 bg-white text-black rounded-md">
+                <button className="w-60 h-12 bg-black text-white rounded-md">
                   CTA
                 </button>
               </div>
 
               {/* CARD */}
               <div
-                className="card2 flex flex-col items-center bg-red-800 
+                className="card2 flex flex-col items-center bg-white
                       w-75 h-130 p-2 gap-6 
                       shadow-lg rounded-xl"
               >
@@ -248,21 +249,21 @@ export default function Home() {
                   alt="image"
                   className="w-72 h-58.5 rounded-md"
                 />
-                <div className="flex flex-col gap-5 p-2 text-white">
+                <div className="flex flex-col gap-5 p-2 text-black">
                   <p className="text-[14px]">Kelas UI&UX</p>
                   <h3 className="font-semibold text-[22px]">
                     Lorem ipsum dolor sit amet
                   </h3>
                   <p className="text-[14px]">Online • 9 Kelas</p>
                 </div>
-                <button className="w-60 h-12 bg-white text-black rounded-md">
+                <button className="w-60 h-12 bg-black text-white rounded-md">
                   CTA
                 </button>
               </div>
 
               {/* CARD */}
               <div
-                className="card3 flex flex-col items-center bg-red-800 
+                className="card3 flex flex-col items-center bg-white
                       w-75 h-130 p-2 gap-6 
                       shadow-lg rounded-xl"
               >
@@ -271,21 +272,21 @@ export default function Home() {
                   alt="image"
                   className="w-72 h-58.5 rounded-md"
                 />
-                <div className="flex flex-col gap-5 p-2 text-white">
+                <div className="flex flex-col gap-5 p-2 text-black">
                   <p className="text-[14px]">Kelas UI&UX</p>
                   <h3 className="font-semibold text-[22px]">
                     Lorem ipsum dolor sit amet
                   </h3>
                   <p className="text-[14px]">Online • 9 Kelas</p>
                 </div>
-                <button className="w-60 h-12 bg-white text-black rounded-md">
+                <button className="w-60 h-12 bg-black text-white rounded-md">
                   CTA
                 </button>
               </div>
 
               {/* CARD */}
               <div
-                className="card4 flex flex-col items-center bg-red-800 
+                className="card4 flex flex-col items-center bg-white
                       w-75 h-130 p-2 gap-6 
                       shadow-lg rounded-xl"
               >
@@ -294,18 +295,84 @@ export default function Home() {
                   alt="image"
                   className="w-72 h-58.5 rounded-md"
                 />
-                <div className="flex flex-col gap-5 p-2 text-white">
+                <div className="flex flex-col gap-5 p-2 text-black">
                   <p className="text-[14px]">Kelas UI&UX</p>
                   <h3 className="font-semibold text-[22px]">
                     Lorem ipsum dolor sit amet
                   </h3>
                   <p className="text-[14px]">Online • 9 Kelas</p>
                 </div>
-                <button className="w-60 h-12 bg-white text-black rounded-md">
+                <button className="w-60 h-12 bg-black text-white rounded-md">
                   CTA
                 </button>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        className="Keempat relative bg-[#0B55C3] min-h-screen m-7 rounded-3xl 
+                flex flex-col p-8
+                gap-16 
+                shadow-xl overflow-hidden"
+      ></div>
+
+      <div
+        className="Keempat relative bg-[#0B55C3] min-h-screen m-7 rounded-3xl 
+                flex flex-col p-8
+                gap-16 
+                shadow-xl overflow-hidden"
+      ></div>
+
+      <div
+        className="Kelima bg-[#F37E2E] min-h-screen m-7 rounded-3xl 
+             flex flex-row p-12 gap-16 
+             shadow-xl overflow-hidden justify-center"
+      >
+        <div className="gap-7.5 flex flex-col m-20 p-6 text-white justify-center">
+          <h1 className="text-[66px] font-bold">
+            Pertanyaan yang sering muncul
+          </h1>
+          <p className="text-[20px]">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+        </div>
+
+        <div className="card FAQ flex flex-col gap-6 m-20 p-6 justify-center">
+          <div className="card1 flex justify-between bg-white w-187.5 h-18.5 rounded-md p-4 text-black items-center">
+            <p className="text-black text-[20px]">
+              Kenapa klo ini itu gak begini biar ini ikutan
+            </p>
+            <p className="text-black text-[20px]">+</p>
+          </div>
+
+          <div className="card2 flex justify-between bg-white w-187.5 h-18.5 rounded-md p-4 text-black items-center">
+            <p className="text-black text-[20px]">
+              Kenapa klo ini itu gak begini biar ini ikutan
+            </p>
+            <p className="text-black text-[20px]">+</p>
+          </div>
+
+          <div className="card3 flex justify-between bg-white w-187.5 h-18.5 rounded-md p-4 text-black items-center">
+            <p className="text-black text-[20px]">
+              Kenapa klo ini itu gak begini biar ini ikutan
+            </p>
+            <p className="text-black text-[20px]">+</p>
+          </div>
+
+          <div className="card4 flex justify-between bg-white w-187.5 h-18.5 rounded-md p-4 text-black items-center">
+            <p className="text-black text-[20px]">
+              Kenapa klo ini itu gak begini biar ini ikutan
+            </p>
+            <p className="text-black text-[20px]">+</p>
+          </div>
+
+          <div className="card5 flex justify-between bg-white w-187.5 h-18.5 rounded-md p-4 text-black items-center">
+            <p className="text-black text-[20px]">
+              Kenapa klo ini itu gak begini biar ini ikutan
+            </p>
+            <p className="text-black text-[20px]">+</p>
           </div>
         </div>
       </div>
