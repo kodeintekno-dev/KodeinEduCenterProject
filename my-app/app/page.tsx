@@ -1,3 +1,5 @@
+import FaQ from "@/app/FaQ";
+
 export default function Home() {
   return (
     <main>
@@ -325,7 +327,9 @@ export default function Home() {
                 shadow-xl overflow-hidden"
       ></div>
 
-      <div
+      <FaQ />
+
+      {/* <div
         className="Kelima bg-[#F37E2E] min-h-screen m-7 rounded-3xl 
              flex flex-row p-12 gap-16 
              shadow-xl overflow-hidden justify-center"
@@ -375,7 +379,7 @@ export default function Home() {
             <p className="text-black text-[20px]">+</p>
           </div>
         </div>
-      </div>
+      </div> */}
     </main>
   );
 }
