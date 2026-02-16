@@ -20,12 +20,12 @@ export default function NavBar() {
               <li>About</li>
               <IoIosArrowDown />
             </div>
-            
+
             <div className="flex items-center gap-1">
               <li>Program</li>
               <IoIosArrowDown />
             </div>
-            
+
             <li>Contact</li>
           </ul>
         </div>
