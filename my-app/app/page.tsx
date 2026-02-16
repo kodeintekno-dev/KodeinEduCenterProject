@@ -1,29 +1,30 @@
 export default function Home() {
   return (
     <main>
-      <div className="bg-white min-h-screen text-black m-7 rounded-3xl flex flex-row justify-between overflow-hidden">
-        <div className="Herolefttext flex flex-col gap-6 m-20 justify-center w-150">
-          <h1 className="text-[65px] font-bold">
-            Belajar Skill Digital dengan Cara yang Tepat
-          </h1>
-          <h2>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-            rhoncus ante turpis, et ornare dui interdum at. Etiam libero urna,
-            tincidunt ac viverra ac, facilisis at justo. Donec vitae lorem ac
-            odio vestibulum rhoncus. Quisque in iaculis purus.
-          </h2>
-          <button className="w-40 h-12 bg-[#F37E2E] text-white flex justify-center items-center rounded-md">
-            <p>CTA</p>
+      <div className="bg-linear-to-r from-[#F6B562] to-[#FFE8BB] min-h-screen text-black m-7 rounded-3xl flex flex-row justify-between overflow-hidden">
+        <div className="Herolefttext flex flex-col gap-6 px-20 py-24 justify-center max-w-xl">
+          <div className="flex flex-col w-143 ">
+            <h1 className="text-[64px] font-bold leading-tight">
+              Siap Kerja dengan Skill Digital yang Relevan
+            </h1>
+
+            <h2 className="text-gray-600 text-lg leading-relaxed">
+              Tingkatkan skill digital Anda dengan metode belajar terarah,
+              materi terstruktur, dan praktik langsung sesuai kebutuhan
+              industri.
+            </h2>
+          </div>
+
+          <button className="w-50 px-6 py-3 bg-[#F37E2E] text-white rounded-lg hover:opacity-90 transition">
+            Konsultasi Gratis
           </button>
         </div>
 
-        <div className="Herorightimg flex flex-col gap-6 m-40 justify-center w-150">
+        <div className="Herorightimg flex justify-end items-center">
           <img
-            src="/Group-33.png"
+            src="/Vector.png"
             alt="Hero Image"
-            width={621.49}
-            height={468}
-            className="m-20"
+            className="h-full object-cover"
           />
         </div>
       </div>
