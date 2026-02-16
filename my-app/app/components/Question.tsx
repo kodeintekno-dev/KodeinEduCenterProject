@@ -2,7 +2,16 @@
 
 import { useState } from "react";
 
-export default function Questions({ data }) {
+  type QuestionData = {
+    question: string;
+    answer: string;
+  };
+
+  type props = {
+    data: QuestionData;
+  }
+
+export default function Questions({ data }: props) {
   const [open, setOpen] = useState(false);
 
   return (
@@ -20,11 +29,10 @@ export default function Questions({ data }) {
         </span>
       </div>
 
-      {open && (
-        <p className="text-gray-600 mt-3 ease-in-out duration-800">
+        <p className={`text-gray-600 mt-3 transition-all duration-500 ease-in-out transform ${open ? "max-h-40 opacity-100" : "max-h-0 opacity-0"}`}>
           {data.answer}
         </p>
-      )}
+      
     </div>
   );
 }
