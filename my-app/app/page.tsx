@@ -2,6 +2,7 @@
 
 import FaQ from "@/app/FaQ";
 import Testimonial from "./Testimonial";
+import Program from "./Program";
 
 export default function Home() {
   return (
@@ -183,7 +184,7 @@ export default function Home() {
         />
       </div>
 
-      <div
+      {/* <div
         className="relative bg-white min-h-screen m-7 rounded-3xl 
                 flex flex-col items-center 
                 px-24 py-28 gap-20 
@@ -282,7 +283,8 @@ export default function Home() {
             </button>
           </div>
         </div>
-      </div>
+      </div> */}
+      <Program />
 
       <div className="relative bg-[linear-gradient(to_bottom,#FFC067_0%,#F6B562_50%,#FFFFFF_100%)] min-h-screen m-7 rounded-3xl flex flex-col justify-center items-center px-20 py-20 gap-16 shadow-xl overflow-hidden">
         <img
@@ -315,7 +317,7 @@ export default function Home() {
           </button>
         </div>
       </div>
-      
+
       <Testimonial />
 
       <FaQ />
