@@ -1,4 +1,7 @@
+"use client";
+
 import FaQ from "@/app/FaQ";
+import Testimonial from "./Testimonial";
 
 export default function Home() {
   return (
@@ -312,132 +315,8 @@ export default function Home() {
           </button>
         </div>
       </div>
-
-      <div className="relative bg-black min-h-screen m-7 rounded-3xl flex flex-col px-20 py-20 gap-16 shadow-xl overflow-hidden">
-        <div className="flex justify-between items-start">
-          <div className="flex flex-col gap-4">
-            <h1 className="text-[60px] text-white font-black">
-              Apa kata mereka?
-            </h1>
-            <p className="text-[20px] text-gray-300">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
-          </div>
-
-          <div className="flex gap-4 mt-6">
-            <button className="w-14 h-14 rounded-full bg-gray-400 text-black flex items-center justify-center text-xl">
-              ←
-            </button>
-            <button className="w-14 h-14 rounded-full bg-white text-black flex items-center justify-center text-xl">
-              →
-            </button>
-          </div>
-        </div>
-
-        <div className="overflow-hidden">
-          <div className="flex gap-8 p-20 items-center justify-center">
-            <div className="w-90 h-90 bg-white rounded-2xl p-8 flex flex-col gap-4 shadow-lg">
-              <div className="flex items-center gap-4">
-                <div className="w-14 h-14 bg-gray-200 rounded-full"></div>
-                <div>
-                  <h3 className="font-bold text-[30px] text-lg text-black">
-                    Imamudin
-                  </h3>
-                  <p className="text-sm text-black">Ortu. Ananda Anam</p>
-                </div>
-              </div>
-
-              <div className="text-yellow-400 text-lg">⭐⭐⭐⭐⭐</div>
-
-              <p className="text-black leading-relaxed">
-                Terkait pembelajaran yang disampaikan oleh Sekolah Developer
-                Indonesia itu jauh diluar bayangan saya, saya senang menemukan
-                sekolah ini. Semoga istiqomah.
-              </p>
-            </div>
-
-            <div className="w-90 h-90 bg-white rounded-2xl p-8 flex flex-col gap-4 shadow-lg">
-              <div className="flex items-center gap-4">
-                <div className="w-14 h-14 bg-gray-200 rounded-full"></div>
-                <div>
-                  <h3 className="font-bold text-[30px] text-lg text-black">
-                    Imamudin
-                  </h3>
-                  <p className="text-sm text-black">Ortu. Ananda Anam</p>
-                </div>
-              </div>
-
-              <div className="text-yellow-400 text-lg">⭐⭐⭐⭐⭐</div>
-
-              <p className="text-black leading-relaxed">
-                Terkait pembelajaran yang disampaikan oleh Sekolah Developer
-                Indonesia itu jauh diluar bayangan saya, saya senang menemukan
-                sekolah ini. Semoga istiqomah.
-              </p>
-            </div>
-
-            <div className="w-90 h-90 bg-white rounded-2xl p-8 flex flex-col gap-4 shadow-lg">
-              <div className="flex items-center gap-4">
-                <div className="w-14 h-14 bg-gray-200 rounded-full"></div>
-                <div>
-                  <h3 className="font-bold text-[30px] text-lg text-black">
-                    Imamudin
-                  </h3>
-                  <p className="text-sm text-black">Ortu. Ananda Anam</p>
-                </div>
-              </div>
-
-              <div className="text-yellow-400 text-lg">⭐⭐⭐⭐⭐</div>
-
-              <p className="text-black leading-relaxed">
-                Terkait pembelajaran yang disampaikan oleh Sekolah Developer
-                Indonesia itu jauh diluar bayangan saya, saya senang menemukan
-                sekolah ini. Semoga istiqomah.
-              </p>
-            </div>
-
-            <div className="w-90 h-90 bg-white rounded-2xl p-8 flex flex-col gap-4 shadow-lg">
-              <div className="flex items-center gap-4">
-                <div className="w-14 h-14 bg-gray-200 rounded-full"></div>
-                <div>
-                  <h3 className="font-bold text-[30px] text-lg text-black">
-                    Imamudin
-                  </h3>
-                  <p className="text-sm text-black">Ortu. Ananda Anam</p>
-                </div>
-              </div>
-
-              <div className="text-yellow-400 text-lg">⭐⭐⭐⭐⭐</div>
-
-              <p className="text-black leading-relaxed">
-                Terkait pembelajaran yang disampaikan oleh Sekolah Developer
-                Indonesia itu jauh diluar bayangan saya, saya senang menemukan
-                sekolah ini. Semoga istiqomah.
-              </p>
-            </div>
-
-            <div className="w-90 h-90 bg-white rounded-2xl p-8 flex flex-col gap-4 shadow-lg">
-              <div className="flex items-center gap-4">
-                <div className="w-14 h-14 bg-gray-200 rounded-full"></div>
-                <div>
-                  <h3 className="font-bold text-[30px] text-lg text-black">
-                    Imamudin
-                  </h3>
-                  <p className="text-sm text-black">Ortu. Ananda Anam</p>
-                </div>
-              </div>
-
-              <div className="text-yellow-400 text-lg">⭐⭐⭐⭐⭐</div>
-
-              <p className="text-black leading-relaxed">
-                Terkait pembelajaran yang disampaikan oleh Sekolah Developer
-                Indonesia itu jauh diluar bayangan saya, saya senang menemukan
-                sekolah ini. Semoga istiqomah.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
+      
+      <Testimonial />
 
       <FaQ />
 
