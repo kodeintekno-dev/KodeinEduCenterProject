@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className="bg-white text-black h-fit max-w-full">
       <div className="flex flex-row justify-between items-start p-10">
         <div>
-          <img src="logoKodeinEdu.png" alt="" className="max-w-[247px]" />
+          <img src="logoKodeinEdu.png" alt="" className="max-w-61.75" />
         </div>
 
         <div className="flex flex-row gap-20 text-xl">
@@ -29,8 +29,10 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="border-1 border-gray p-5">
-        <p className="text-base">© 2024 Kodein Edu Center. All rights reserved.</p>
+      <div className="border border-gray p-5">
+        <p className="text-base">
+          © 2024 Kodein Edu Center. All rights reserved.
+        </p>
       </div>
     </footer>
   );
