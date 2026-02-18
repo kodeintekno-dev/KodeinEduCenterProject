@@ -1,11 +1,7 @@
 "use client";
 
 import FaQ from "@/app/FaQ";
-<<<<<<< HEAD
-import Testimonials from "./components/Testimonials";
-=======
 import Testimonial from "./Testimonial";
->>>>>>> develop
 
 export default function Home() {
   return (
@@ -180,12 +176,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-<<<<<<< HEAD
-      </div> */}
-
-      <div>
-        <Testimonials />
-=======
         <img
           src="/haha.png"
           alt=""
@@ -338,7 +328,6 @@ export default function Home() {
           <div className="bg-white w-57.5 h-57.5"></div>
           <div className="bg-white w-200 h-57.5"></div>
         </div>
->>>>>>> develop
       </div>
     </main>
   );
