@@ -3,383 +3,453 @@ import FaQ from "@/app/FaQ";
 export default function Home() {
   return (
     <main>
-      <div className="bg-white min-h-screen text-black m-7 rounded-3xl flex flex-row justify-between overflow-hidden">
-        <div className="Herolefttext flex flex-col gap-6 m-20 justify-center w-150">
-          <h1 className="text-[65px] font-bold">
-            Belajar Skill Digital dengan Cara yang Tepat
-          </h1>
-          <h2>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-            rhoncus ante turpis, et ornare dui interdum at. Etiam libero urna,
-            tincidunt ac viverra ac, facilisis at justo. Donec vitae lorem ac
-            odio vestibulum rhoncus. Quisque in iaculis purus.
-          </h2>
-          <button className="w-40 h-12 bg-[#F37E2E] text-white flex justify-center items-center rounded-md">
-            <p>CTA</p>
+      <div className="bg-linear-to-r from-[#F6B562] to-[#FFE8BB] min-h-screen text-black m-7 rounded-3xl flex flex-row justify-between overflow-hidden">
+        <div className="Herolefttext flex flex-col gap-6 px-20 py-24 justify-center max-w-xl">
+          <div className="flex flex-col w-143 ">
+            <h1 className="text-[64px] font-bold leading-tight">
+              Siap Kerja dengan Skill Digital yang Relevan
+            </h1>
+
+            <h2 className="text-gray-600 text-lg leading-relaxed">
+              Tingkatkan skill digital Anda dengan metode belajar terarah,
+              materi terstruktur, dan praktik langsung sesuai kebutuhan
+              industri.
+            </h2>
+          </div>
+
+          <button className="w-50 px-6 py-3 bg-[#F37E2E] text-white rounded-lg hover:opacity-90 transition">
+            Konsultasi Gratis
           </button>
         </div>
 
-        <div className="Herorightimg flex flex-col gap-6 m-40 justify-center w-150">
+        <div className="Herorightimg flex justify-end items-center">
           <img
-            src="/Group-33.png"
+            src="/Vector.png"
             alt="Hero Image"
-            width={621.49}
-            height={468}
-            className="m-20"
+            className="h-full object-cover"
           />
         </div>
       </div>
 
       <div
-        className="relative bg-[#0B55C3] min-h-screen m-7 rounded-3xl 
-                flex flex-col items-center justify-center 
-                px-6 py-20 gap-16 
-                shadow-xl overflow-hidden"
+        className="relative
+  bg-[linear-gradient(to_right,#FFFFFF_0%,#F6B562_50%,#FFFFFF_100%)]
+  min-h-screen m-7 rounded-3xl
+  flex justify-between items-center
+  px-20 py-20 gap-16
+  shadow-xl overflow-hidden"
       >
-        {/* Pattern kanan atas */}
-        <img
-          src="/Pattern-2.png"
-          alt=""
-          className="absolute 
-               -right-10
-               w-225
-               opacity-40
-               rotate-12
-               pointer-events-none"
-        />
+        <div className="flex flex-col max-w-2xl gap-8 px-10 items-center  ">
+          <div className="flex flex-col gap-6">
+            <h1 className="text-[66px] font-black text-black leading-tight">
+              Program Pembelajaran <br /> Skill Digital
+            </h1>
 
-        {/* Pattern kiri bawah */}
-        <img
-          src="/Pattern.png"
-          alt=""
-          className="absolute 
-               -left-8
-               w-185
-               opacity-40
-               rotate-5
-               pointer-events-none"
-        />
+            <p className="text-[20px] text-black max-w-xl leading-relaxed">
+              Kodein Edu Center memiliki program pembelajaran skill digital
+              berbasis praktik untuk pelajar, mahasiswa, dan pemula dalam
+              membangun portofolio sesuai kebutuhan industri.
+            </p>
 
-        {/* Konten */}
-        <div className="max-w-3xl flex flex-col gap-6 items-center text-center z-10">
-          <h1 className="text-[48px] md:text-[65px] font-bold text-white leading-tight">
-            Mengapa kami hadir
-          </h1>
-          <p className="text-[18px] md:text-[20px] text-white/90 max-w-2xl">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-            rhoncus ante turpis, et ornare dui interdum at.
-          </p>
+            <div className="flex gap-4 items-center">
+              <p className="text-[20px] font-bold text-black">
+                Siap kerja dengan skill digital dan portofolio berbasis project.
+              </p>
+              <img src="/Frame.png" alt="" className="w-8" />
+            </div>
+          </div>
+
+          <div className="flex flex-col gap-6 mt-6">
+            <div className="flex gap-4 items-start">
+              <img className="w-11" src="/frame-1.png" alt="" />
+              <div>
+                <h2 className="text-black font-bold text-lg">
+                  Pembelajaran Praktis
+                </h2>
+                <p className="text-black">
+                  Materi disampaikan melalui praktik dan studi kasus.
+                </p>
+              </div>
+            </div>
+
+            <div className="flex gap-4 items-start">
+              <img className="w-11" src="/frame-3.png" alt="" />
+              <div>
+                <h2 className="text-black font-bold text-lg">Project Based</h2>
+                <p className="text-black">
+                  Peserta mengerjakan project untuk membangun portofolio.
+                </p>
+              </div>
+            </div>
+
+            <div className="flex gap-4 items-start">
+              <img className="w-11" src="/frame-2.png" alt="" />
+              <div>
+                <h2 className="text-black font-bold text-lg">
+                  Bimbingan Mentor Ahli
+                </h2>
+                <p className="text-black">
+                  Peserta dibimbing selama proses belajar berlangsung.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
 
-        {/* CTA */}
-        <div className="flex flex-col md:flex-row gap-6 z-10">
-          <button className="w-60 h-12 bg-[#F37E2E] text-white rounded-md">
-            CTA
-          </button>
-          <button className="w-60 h-12 bg-[#F37E2E] text-white rounded-md">
-            CTA
-          </button>
+        <div className="flex justify-center items-center px-10">
+          <img src="/itulah.png" alt="" className="w-200" />
         </div>
       </div>
 
       <div
-        className="Ketiga bg-white min-h-screen m-7 rounded-3xl 
-                flex flex-col p-8
-                gap-16 
-                shadow-xl overflow-hidden"
+        className="relative bg-black min-h-screen m-7 rounded-3xl 
+                flex flex-col items-center 
+                px-24 py-28 gap-20 
+                shadow-xl overflow-hidden text-white"
       >
-        <div className="flex flex-col gap-5 m-20 p-6">
-          <h1 className="text-[48px] md:text-[65px] font-bold text-black leading-tight text-center">
-            Bagaimana cara kerjanya
+        <div className="flex flex-col gap-8 items-center text-center max-w-4xl">
+          <h1 className="text-7xl font-black leading-tight">
+            Belajar Secara Praktis dan Terarah
           </h1>
-          <p className="text-black text-center">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.{" "}
-          </p>
-        </div>
-
-        <div className=" card1 flex flex-wrap justify-center">
-          <div>
-            <div className=" card flex flex-col bg-[#F37E2E] w-80 h-100 rounded-3xl p-8 items-center gap-6 m-10 float-left shadow-lg">
-              <div className="rounded-full border bg-white w-25 h-25 "></div>
-              <div className="flex flex-col items-center gap-8">
-                <h3 className="font-semibold text-[24px] text-center">
-                  Atur Rencanamu
-                </h3>
-                <p className="text-[18px] text-center">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.{" "}
-                </p>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div className=" card2 flex flex-col bg-[#F37E2E] w-80 h-100 rounded-3xl p-8 items-center gap-6 m-10 float-left shadow-lg">
-              <div className="rounded-full border bg-white w-25 h-25 "></div>
-              <div className="flex flex-col items-center gap-8">
-                <h3 className="font-semibold text-[24px] text-center">
-                  Temukan kursusmu
-                </h3>
-                <p className="text-[18px] text-center">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.{" "}
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div>
-            <div className=" card3 flex flex-col bg-[#F37E2E] w-80 h-100 rounded-3xl p-8 items-center gap-6 m-10 float-left shadow-lg">
-              <div className="rounded-full border bg-white w-25 h-25 "></div>
-              <div className="flex flex-col items-center gap-8">
-                <h3 className="font-semibold text-[24px] text-center">
-                  Pesan tempatmu
-                </h3>
-                <p className="text-[18px] text-center">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.{" "}
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div>
-            <div className=" card4 flex flex-col bg-[#F37E2E] w-80 h-100 rounded-3xl p-8 items-center gap-6 m-10 float-left shadow-lg">
-              <div className="rounded-full border bg-white w-25 h-25"></div>
-              <div className="flex flex-col items-center gap-8">
-                <h3 className="font-semibold text-[24px] text-center">
-                  Dapatkan sertifikat
-                </h3>
-                <p className="text-[18px] text-center">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.{" "}
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div
-        className="Keempat relative bg-[#0B55C3] min-h-screen m-7 rounded-3xl 
-                flex flex-col p-8
-                gap-16 
-                shadow-xl overflow-hidden"
-      >
-        <img
-          src="/Pattern-2.png"
-          alt=""
-          className="absolute 
-               -right-10
-               w-225
-               opacity-40
-               rotate-12
-               pointer-events-none"
-        />
-
-        {/* Pattern kiri bawah */}
-        <img
-          src="/Pattern.png"
-          alt=""
-          className="absolute 
-               -left-8
-               w-185
-               opacity-40
-               rotate-5
-               pointer-events-none"
-        />
-
-        <div
-          className="Keempat relative bg-[#0B55C3] min-h-screen m-7 rounded-3xl 
-             flex flex-col p-8 gap-16 
-             shadow-xl overflow-hidden"
-        >
-          {/* Pattern kanan */}
-          <img
-            src="/Pattern-2.png"
-            alt=""
-            className="absolute 
-               top-0 -right-20
-               w-225
-               opacity-40
-               rotate-12
-               pointer-events-none"
-          />
-
-          {/* Pattern kiri */}
-          <img
-            src="/Pattern.png"
-            alt=""
-            className="absolute 
-               bottom-0 -left-20
-               w-185
-               opacity-40
-               rotate-5
-               pointer-events-none"
-          />
-
-          <div className="flex flex-col p-20 gap-20 z-10">
-            <h1 className="font-bold text-white text-[64px]">Program Kami</h1>
-
-            <div className="flex flex-row gap-12 flex-wrap justify-center">
-              {/* CARD */}
-              <div
-                className="card1 flex flex-col items-center bg-white 
-                      w-75 h-130 p-2 gap-6 
-                      shadow-lg rounded-xl"
-              >
-                <img
-                  src="/Rectangle-9.png"
-                  alt="image"
-                  className="w-72 h-58.5 rounded-md"
-                />
-                <div className="flex flex-col gap-5 p-2 text-black">
-                  <p className="text-[14px]">Kelas UI&UX</p>
-                  <h3 className="font-semibold text-[22px]">
-                    Lorem ipsum dolor sit amet
-                  </h3>
-                  <p className="text-[14px]">Online • 9 Kelas</p>
-                </div>
-                <button className="w-60 h-12 bg-black text-white rounded-md">
-                  CTA
-                </button>
-              </div>
-
-              {/* CARD */}
-              <div
-                className="card2 flex flex-col items-center bg-white
-                      w-75 h-130 p-2 gap-6 
-                      shadow-lg rounded-xl"
-              >
-                <img
-                  src="/Rectangle-9.png"
-                  alt="image"
-                  className="w-72 h-58.5 rounded-md"
-                />
-                <div className="flex flex-col gap-5 p-2 text-black">
-                  <p className="text-[14px]">Kelas UI&UX</p>
-                  <h3 className="font-semibold text-[22px]">
-                    Lorem ipsum dolor sit amet
-                  </h3>
-                  <p className="text-[14px]">Online • 9 Kelas</p>
-                </div>
-                <button className="w-60 h-12 bg-black text-white rounded-md">
-                  CTA
-                </button>
-              </div>
-
-              {/* CARD */}
-              <div
-                className="card3 flex flex-col items-center bg-white
-                      w-75 h-130 p-2 gap-6 
-                      shadow-lg rounded-xl"
-              >
-                <img
-                  src="/Rectangle-9.png"
-                  alt="image"
-                  className="w-72 h-58.5 rounded-md"
-                />
-                <div className="flex flex-col gap-5 p-2 text-black">
-                  <p className="text-[14px]">Kelas UI&UX</p>
-                  <h3 className="font-semibold text-[22px]">
-                    Lorem ipsum dolor sit amet
-                  </h3>
-                  <p className="text-[14px]">Online • 9 Kelas</p>
-                </div>
-                <button className="w-60 h-12 bg-black text-white rounded-md">
-                  CTA
-                </button>
-              </div>
-
-              {/* CARD */}
-              <div
-                className="card4 flex flex-col items-center bg-white
-                      w-75 h-130 p-2 gap-6 
-                      shadow-lg rounded-xl"
-              >
-                <img
-                  src="/Rectangle-9.png"
-                  alt="image"
-                  className="w-72 h-58.5 rounded-md"
-                />
-                <div className="flex flex-col gap-5 p-2 text-black">
-                  <p className="text-[14px]">Kelas UI&UX</p>
-                  <h3 className="font-semibold text-[22px]">
-                    Lorem ipsum dolor sit amet
-                  </h3>
-                  <p className="text-[14px]">Online • 9 Kelas</p>
-                </div>
-                <button className="w-60 h-12 bg-black text-white rounded-md">
-                  CTA
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div
-        className="Keempat relative bg-[#0B55C3] min-h-screen m-7 rounded-3xl 
-                flex flex-col p-8
-                gap-16 
-                shadow-xl overflow-hidden"
-      ></div>
-
-      <div
-        className="Keempat relative bg-[#0B55C3] min-h-screen m-7 rounded-3xl 
-                flex flex-col p-8
-                gap-16 
-                shadow-xl overflow-hidden"
-      ></div>
-
-      <FaQ />
-
-      {/* <div
-        className="Kelima bg-[#F37E2E] min-h-screen m-7 rounded-3xl 
-             flex flex-row p-12 gap-16 
-             shadow-xl overflow-hidden justify-center"
-      >
-        <div className="gap-7.5 flex flex-col m-20 p-6 text-white justify-center">
-          <h1 className="text-[66px] font-bold">
-            Pertanyaan yang sering muncul
-          </h1>
-          <p className="text-[20px]">
+          <p className="text-xl text-gray-300">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
         </div>
 
-        <div className="card FAQ flex flex-col gap-6 m-20 p-6 justify-center">
-          <div className="card1 flex justify-between bg-white w-187.5 h-18.5 rounded-md p-4 text-black items-center">
-            <p className="text-black text-[20px]">
-              Kenapa klo ini itu gak begini biar ini ikutan
-            </p>
-            <p className="text-black text-[20px]">+</p>
+        <div className="relative z-10 flex flex-wrap justify-center gap-10">
+          <div
+            className="flex flex-col w-90 h-100 bg-white text-black 
+                    rounded-3xl p-10 gap-8 items-center 
+                    shadow-2xl"
+          >
+            <div className="w-30 h-30 bg-gray-300 rounded-full"></div>
+            <div className="flex flex-col items-center gap-4 text-center">
+              <h3 className="font-bold text-xl">Dapatkan sertifikat</h3>
+              <p className="text-base text-gray-600">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+            </div>
           </div>
 
-          <div className="card2 flex justify-between bg-white w-187.5 h-18.5 rounded-md p-4 text-black items-center">
-            <p className="text-black text-[20px]">
-              Kenapa klo ini itu gak begini biar ini ikutan
-            </p>
-            <p className="text-black text-[20px]">+</p>
+          <div
+            className="flex flex-col w-90 h-100 bg-white text-black 
+                    rounded-3xl p-10 gap-8 items-center 
+                    shadow-2xl"
+          >
+            <div className="w-30 h-30 bg-gray-300 rounded-full"></div>
+            <div className="flex flex-col items-center gap-4 text-center">
+              <h3 className="font-bold text-xl">Dapatkan sertifikat</h3>
+              <p className="text-base text-gray-600">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+            </div>
           </div>
 
-          <div className="card3 flex justify-between bg-white w-187.5 h-18.5 rounded-md p-4 text-black items-center">
-            <p className="text-black text-[20px]">
-              Kenapa klo ini itu gak begini biar ini ikutan
-            </p>
-            <p className="text-black text-[20px]">+</p>
+          <div
+            className="flex flex-col w-90 h-100 bg-white text-black 
+                    rounded-3xl p-10 gap-8 items-center 
+                    shadow-2xl"
+          >
+            <div className="w-30 h-30 bg-gray-300 rounded-full"></div>
+            <div className="flex flex-col items-center gap-4 text-center">
+              <h3 className="font-bold text-xl">Dapatkan sertifikat</h3>
+              <p className="text-base text-gray-600">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+            </div>
           </div>
 
-          <div className="card4 flex justify-between bg-white w-187.5 h-18.5 rounded-md p-4 text-black items-center">
-            <p className="text-black text-[20px]">
-              Kenapa klo ini itu gak begini biar ini ikutan
-            </p>
-            <p className="text-black text-[20px]">+</p>
-          </div>
-
-          <div className="card5 flex justify-between bg-white w-187.5 h-18.5 rounded-md p-4 text-black items-center">
-            <p className="text-black text-[20px]">
-              Kenapa klo ini itu gak begini biar ini ikutan
-            </p>
-            <p className="text-black text-[20px]">+</p>
+          <div
+            className="flex flex-col w-90 h-100 bg-white text-black 
+                    rounded-3xl p-10 gap-8 items-center 
+                    shadow-2xl"
+          >
+            <div className="w-30 h-30 bg-gray-300 rounded-full"></div>
+            <div className="flex flex-col items-center gap-4 text-center">
+              <h3 className="font-bold text-xl">Dapatkan sertifikat</h3>
+              <p className="text-base text-gray-600">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+            </div>
           </div>
         </div>
-      </div> */}
+        <img
+          src="/haha.png"
+          alt=""
+          className="absolute bottom-0 left-0 w-152.5 opacity-90 "
+        />
+      </div>
+
+      <div
+        className="relative bg-white min-h-screen m-7 rounded-3xl 
+                flex flex-col items-center 
+                px-24 py-28 gap-20 
+                shadow-xl overflow-hidden text-black"
+      >
+        <h1 className="text-[66px] font-black text-black">Program Kami</h1>
+
+        <img
+          src="/Group-37.png"
+          alt=""
+          className="absolute top-0 right-0 w-130"
+        />
+
+        <div className="relative">
+          <div className="flex gap-8 overflow-x-auto scroll-smooth no-scrollbar pb-10">
+            <div className="shrink-0 w-75 h-130 bg-white rounded-2xl shadow-xl p-4">
+              <img
+                src="/Rectangle-9.png"
+                alt=""
+                className="w-72 h-58.5 object-cover rounded-xl"
+              />
+
+              <div className="flex flex-col gap-4 mt-4 text-black">
+                <p className="text-sm">UI/UX</p>
+                <h3 className="font-semibold text-xl">
+                  Bangun 3 studi kasus portfolio.
+                </h3>
+                <p className="text-sm text-gray-600">Online • 9 Modul</p>
+                <button className="mt-4 bg-black text-white py-3 rounded-lg">
+                  Mulai Belajar
+                </button>
+              </div>
+            </div>
+
+            <div className="shrink-0 w-75 h-130 bg-white rounded-2xl shadow-xl p-4">
+              <img
+                src="/Rectangle-9.png"
+                alt=""
+                className="w-72 h-58.5 object-cover rounded-xl"
+              />
+              <div className="flex flex-col gap-4 mt-4 text-black">
+                <p className="text-sm">Web Development</p>
+                <h3 className="font-semibold text-xl">
+                  Buat website responsif dari nol.
+                </h3>
+                <p className="text-sm text-gray-600">Online • 9 Modul</p>
+                <button className="mt-4 bg-black text-white py-3 rounded-lg">
+                  Mulai Belajar
+                </button>
+              </div>
+            </div>
+            <div className="shrink-0 w-75 h-130 bg-white rounded-2xl shadow-xl p-4">
+              <img
+                src="/Rectangle-9.png"
+                alt=""
+                className="w-72 h-58.5 object-cover rounded-xl"
+              />
+              <div className="flex flex-col gap-4 mt-4 text-black">
+                <p className="text-sm">Graphic Design</p>
+                <h3 className="font-semibold text-xl">
+                  Desain konten untuk kebutuhan branding.
+                </h3>
+                <p className="text-sm text-gray-600">Online • 9 Modul</p>
+                <button className="mt-4 bg-black text-white py-3 rounded-lg">
+                  Mulai Belajar
+                </button>
+              </div>
+            </div>
+
+            <div className="shrink-0 w-75 h-130 bg-white rounded-2xl shadow-xl p-4">
+              <img
+                src="/Rectangle-9.png"
+                alt=""
+                className="w-72 h-58.5 object-cover rounded-xl"
+              />
+              <div className="flex flex-col gap-4 mt-4 text-black">
+                <p className="text-sm">Digital Marketing</p>
+                <h3 className="font-semibold text-xl">
+                  Kelola strategi promosi digital.
+                </h3>
+                <p className="text-sm text-gray-600">Online • 9 Modul</p>
+                <button className="mt-4 bg-black text-white py-3 rounded-lg">
+                  Mulai Belajar
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div className="flex gap-4 absolute right-0 -bottom-16">
+            <button className="w-14 h-14 rounded-full bg-gray-300 flex items-center justify-center">
+              ←
+            </button>
+
+            <button className="w-14 h-14 rounded-full bg-black text-white flex items-center justify-center">
+              →
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div className="relative bg-[linear-gradient(to_bottom,#FFC067_0%,#F6B562_50%,#FFFFFF_100%)] min-h-screen m-7 rounded-3xl flex flex-col justify-center items-center px-20 py-20 gap-16 shadow-xl overflow-hidden">
+        <img
+          src="/Group-47.png"
+          alt=""
+          className="absolute bottom-0 left-0 w-200 "
+        />
+
+        <img
+          src="/Group-40.png"
+          alt=""
+          className="absolute bottom-0 right-0 w-200 "
+        />
+
+        <div className="flex flex-col gap-6">
+          <h1 className="text-[60px] text-black font-black text-centers">
+            Gabung Sekarang!
+          </h1>
+          <p className="text-[20px] text-black text-center">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+        </div>
+
+        <div className="flex gap-6">
+          <button className="w-59.5 h-12.5 bg-black text-white  rounded-lg">
+            Daftar Sekarang
+          </button>
+          <button className="w-59.5 h-12.5 bg-black text-white  rounded-lg">
+            Daftar Sekarang
+          </button>
+        </div>
+      </div>
+
+      <div className="relative bg-black min-h-screen m-7 rounded-3xl flex flex-col px-20 py-20 gap-16 shadow-xl overflow-hidden">
+        <div className="flex justify-between items-start">
+          <div className="flex flex-col gap-4">
+            <h1 className="text-[60px] text-white font-black">
+              Apa kata mereka?
+            </h1>
+            <p className="text-[20px] text-gray-300">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </div>
+
+          <div className="flex gap-4 mt-6">
+            <button className="w-14 h-14 rounded-full bg-gray-400 text-black flex items-center justify-center text-xl">
+              ←
+            </button>
+            <button className="w-14 h-14 rounded-full bg-white text-black flex items-center justify-center text-xl">
+              →
+            </button>
+          </div>
+        </div>
+
+        <div className="overflow-hidden">
+          <div className="flex gap-8 p-20 items-center justify-center">
+            <div className="w-90 h-90 bg-white rounded-2xl p-8 flex flex-col gap-4 shadow-lg">
+              <div className="flex items-center gap-4">
+                <div className="w-14 h-14 bg-gray-200 rounded-full"></div>
+                <div>
+                  <h3 className="font-bold text-[30px] text-lg text-black">
+                    Imamudin
+                  </h3>
+                  <p className="text-sm text-black">Ortu. Ananda Anam</p>
+                </div>
+              </div>
+
+              <div className="text-yellow-400 text-lg">⭐⭐⭐⭐⭐</div>
+
+              <p className="text-black leading-relaxed">
+                Terkait pembelajaran yang disampaikan oleh Sekolah Developer
+                Indonesia itu jauh diluar bayangan saya, saya senang menemukan
+                sekolah ini. Semoga istiqomah.
+              </p>
+            </div>
+
+            <div className="w-90 h-90 bg-white rounded-2xl p-8 flex flex-col gap-4 shadow-lg">
+              <div className="flex items-center gap-4">
+                <div className="w-14 h-14 bg-gray-200 rounded-full"></div>
+                <div>
+                  <h3 className="font-bold text-[30px] text-lg text-black">
+                    Imamudin
+                  </h3>
+                  <p className="text-sm text-black">Ortu. Ananda Anam</p>
+                </div>
+              </div>
+
+              <div className="text-yellow-400 text-lg">⭐⭐⭐⭐⭐</div>
+
+              <p className="text-black leading-relaxed">
+                Terkait pembelajaran yang disampaikan oleh Sekolah Developer
+                Indonesia itu jauh diluar bayangan saya, saya senang menemukan
+                sekolah ini. Semoga istiqomah.
+              </p>
+            </div>
+
+            <div className="w-90 h-90 bg-white rounded-2xl p-8 flex flex-col gap-4 shadow-lg">
+              <div className="flex items-center gap-4">
+                <div className="w-14 h-14 bg-gray-200 rounded-full"></div>
+                <div>
+                  <h3 className="font-bold text-[30px] text-lg text-black">
+                    Imamudin
+                  </h3>
+                  <p className="text-sm text-black">Ortu. Ananda Anam</p>
+                </div>
+              </div>
+
+              <div className="text-yellow-400 text-lg">⭐⭐⭐⭐⭐</div>
+
+              <p className="text-black leading-relaxed">
+                Terkait pembelajaran yang disampaikan oleh Sekolah Developer
+                Indonesia itu jauh diluar bayangan saya, saya senang menemukan
+                sekolah ini. Semoga istiqomah.
+              </p>
+            </div>
+
+            <div className="w-90 h-90 bg-white rounded-2xl p-8 flex flex-col gap-4 shadow-lg">
+              <div className="flex items-center gap-4">
+                <div className="w-14 h-14 bg-gray-200 rounded-full"></div>
+                <div>
+                  <h3 className="font-bold text-[30px] text-lg text-black">
+                    Imamudin
+                  </h3>
+                  <p className="text-sm text-black">Ortu. Ananda Anam</p>
+                </div>
+              </div>
+
+              <div className="text-yellow-400 text-lg">⭐⭐⭐⭐⭐</div>
+
+              <p className="text-black leading-relaxed">
+                Terkait pembelajaran yang disampaikan oleh Sekolah Developer
+                Indonesia itu jauh diluar bayangan saya, saya senang menemukan
+                sekolah ini. Semoga istiqomah.
+              </p>
+            </div>
+
+            <div className="w-90 h-90 bg-white rounded-2xl p-8 flex flex-col gap-4 shadow-lg">
+              <div className="flex items-center gap-4">
+                <div className="w-14 h-14 bg-gray-200 rounded-full"></div>
+                <div>
+                  <h3 className="font-bold text-[30px] text-lg text-black">
+                    Imamudin
+                  </h3>
+                  <p className="text-sm text-black">Ortu. Ananda Anam</p>
+                </div>
+              </div>
+
+              <div className="text-yellow-400 text-lg">⭐⭐⭐⭐⭐</div>
+
+              <p className="text-black leading-relaxed">
+                Terkait pembelajaran yang disampaikan oleh Sekolah Developer
+                Indonesia itu jauh diluar bayangan saya, saya senang menemukan
+                sekolah ini. Semoga istiqomah.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <FaQ />
+
+      <div className="relative bg-[#FFD79E] min-h-screen flex flex-col px-20 py-20 gap-16 shadow-xl overflow-hidden">
+        <h1 className="text-[66px] text-black font-black">Kontak</h1>
+        <div className="flex gap-6">
+          <div className="bg-white w-57.5 h-57.5"></div>
+          <div className="bg-white w-57.5 h-57.5"></div>
+          <div className="bg-white w-57.5 h-57.5"></div>
+          <div className="bg-white w-200 h-57.5"></div>
+        </div>
+      </div>
     </main>
   );
 }
