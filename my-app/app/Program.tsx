@@ -76,7 +76,7 @@ export default function Program() {
   };
 
   return (
-    <main className="relative bg-white m-7 rounded-3xl p-16 overflow-hidden shadow-xl h-[850px]">
+    <main className="relative bg-gray-200 m-7 rounded-3xl p-16 overflow-hidden shadow-xl h-[850px]">
       <img
         src="/Group-37.png"
         alt=""
