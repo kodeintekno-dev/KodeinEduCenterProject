@@ -1,4 +1,5 @@
 import FaQ from "@/app/FaQ";
+import Testimonials from "./components/Testimonials";
 
 export default function Home() {
   return (
@@ -380,6 +381,10 @@ export default function Home() {
           </div>
         </div>
       </div> */}
+
+      <div>
+        <Testimonials />
+      </div>
     </main>
   );
 }
