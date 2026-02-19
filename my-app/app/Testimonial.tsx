@@ -32,6 +32,20 @@ const data = [
     testimonial:
       "Terkait pembelajaran yang disampaikan oleh Sekolah Developer Indonesia itu jauh diluar bayangan saya, saya senang menemukan sekolah ini. Semoga istiqomah.",
   },
+  {
+    name: "Ahmad Fauzan",
+    role: "Ortu. Ananda Evi",
+    rating: 5,
+    testimonial:
+      "Terkait pembelajaran yang disampaikan oleh Sekolah Developer Indonesia itu jauh diluar bayangan saya, saya senang menemukan sekolah ini. Semoga istiqomah.",
+  },
+  {
+    name: "Siti Nurhaliza",
+    role: "Ortu. Ananda Fajar",
+    rating: 4,
+    testimonial:
+      "Terkait pembelajaran yang disampaikan oleh Sekolah Developer Indonesia itu jauh diluar bayangan saya, saya senang menemukan sekolah ini. Semoga istiqomah.",
+  }
 ];
 
 export default function Testimonial() {
