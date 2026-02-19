@@ -123,22 +123,26 @@ export default function Program() {
           {data.map((item, i) => (
             <div
               key={i}
-              className="w-[272px] h-[475px] bg-gray-100 rounded-3xl p-6 shrink-0 shadow-lg"
+              className="w-[300px] h-[475px] bg-gray-100 rounded-3xl p-6 shrink-0 shadow-lg flex flex-col justify-between"
             >
-              <img
-                src={item.picture}
-                alt={item.role}
-                className="w-full h-48 object-cover rounded-xl mb-4"
-              />
+              <div className="flex flex-col items-start justify-start">
+                <img
+                  src={item.picture}
+                  alt={item.role}
+                  className="w-full h-48 object-cover rounded-xl mb-4"
+                />
+                <p className="text-lg text-gray-700">{item.role}</p>
+                <h4 className="text-xl font-semibold text-black mt-1">
+                  {item.title}
+                </h4>
+              </div>
 
-              <h3 className="text-xl font-bold text-black">{item.role}</h3>
-              <h4 className="text-lg font-semibold text-black mt-1">
-                {item.title}
-              </h4>
-              <p className="text-gray-600 mt-2">{item.desc}</p>
-              <button className="mt-4 w-full py-2 bg-black text-white rounded-lg hover:bg-gray-800 transition">
-                Mulai Belajar
-              </button>
+              <div className="flex flex-col items-start justify-start">
+                <p className="text-gray-600 mt-2">{item.desc}</p>
+                <button className="mt-4 w-full h-12 py-2 bg-black text-white rounded-lg hover:bg-gray-800 transition cursor-pointer">
+                  Mulai Belajar
+                </button>
+              </div>
             </div>
           ))}
         </motion.div>
@@ -150,7 +154,7 @@ export default function Program() {
         <button
           onClick={prev}
           disabled={index === 0}
-          className={`w-12 h-12 rounded-full flex items-center justify-center 
+          className={`w-12 h-12 rounded-full flex items-center justify-center cursor-pointer 
       ${index === 0 ? "bg-gray-300 cursor-not-allowed" : "bg-black hover:scale-105"}
       transition`}
         >
@@ -158,7 +162,7 @@ export default function Program() {
         </button>
 
         {/* INDICATOR */}
-        <div className="flex items-center gap-3 px-6 py-2 bg-white rounded-full shadow">
+        <div className="flex items-center gap-3 px-6 py-2 rounded-full shadow">
           {Array.from({ length: maxIndex + 1 }).map((_, i) => (
             <motion.div
               key={i}
@@ -177,7 +181,7 @@ export default function Program() {
         <button
           onClick={next}
           disabled={index === maxIndex}
-          className={`w-12 h-12 rounded-full flex items-center justify-center text-white
+          className={`w-12 h-12 rounded-full flex items-center justify-center text-white cursor-pointer
       ${index === maxIndex ? "bg-gray-400 cursor-not-allowed" : "bg-black text-white hover:scale-105"}
       transition`}
         >
