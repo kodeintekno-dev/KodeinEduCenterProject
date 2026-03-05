@@ -10,13 +10,13 @@ import FaQ from "@/app/FaQ";
 
 export default function Home() {
   return (
-    <main>
+    <main className=" flex flex-col container">
       <Hero />
       <About />
       <Steps />
       <Program />
       <CTA />
-      <Testimonial />
+      {/* <Testimonial /> */}
       <FaQ />
     </main>
   );

@@ -76,17 +76,17 @@ export default function Program() {
   };
 
   return (
-    <main className="relative bg-gray-200 m-7 rounded-3xl p-16 overflow-hidden shadow-xl h-[850px]">
+    <main className="relative bg-[#F4F4F6] m-7 rounded-3xl p-16 overflow-hidden shadow-xl h-212.5">
       <img
         src="/Group-37.png"
         alt=""
-        className="absolute top-0 right-0 w-[520px] pointer-events-none select-none z-0"
+        className="absolute top-0 right-0 w-130 pointer-events-none select-none z-0"
       />
 
       <img
         src="/Group-47.png"
         alt=""
-        className="absolute bottom-0 left-0 w-[520px] object-cover rounded-xl pointer-events-none select-none z-0"
+        className="absolute bottom-0 left-0 w-130 object-cover rounded-xl pointer-events-none select-none z-0"
       />
 
       {/* HEADER */}
@@ -115,7 +115,7 @@ export default function Program() {
           {data.map((item, i) => (
             <div
               key={i}
-              className="w-[300px] h-[475px] bg-gray-100 rounded-3xl p-6 shrink-0 shadow-lg flex flex-col justify-between"
+              className="w-75 h-118.75 bg-white rounded-3xl p-6 shrink-0 shadow-lg flex flex-col justify-between"
             >
               <div className="flex flex-col items-start justify-start">
                 <img
@@ -174,8 +174,8 @@ export default function Program() {
           onClick={next}
           disabled={index === maxIndex}
           className={`w-12 h-12 rounded-full flex items-center justify-center text-white cursor-pointer
-      ${index === maxIndex ? "bg-gray-400 cursor-not-allowed" : "bg-black text-white hover:scale-105"}
-      transition`}
+          ${index === maxIndex ? "bg-gray-400 cursor-not-allowed" : "bg-black text-white hover:scale-105"}
+          transition`}
         >
           →
         </button>

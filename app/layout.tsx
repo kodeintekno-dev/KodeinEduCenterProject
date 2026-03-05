@@ -23,7 +23,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${plusJakarta.className} antialiased`}>
         <Navbar />
-        <main>{children}</main>
+        {children}
         <Footer />
       </body>
     </html>

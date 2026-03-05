@@ -1,7 +1,7 @@
 export default function About() {
   return (
-    <main
-      className="relative 
+    <div
+      className="relative
       bg-[linear-gradient(to_right,#FFFFFF_0%,#FFC674_50%,#FFFFFF_100%)] 
       min-h-screen md:min-h-213.5 
       m-4 md:m-7 
@@ -128,6 +128,6 @@ export default function About() {
       >
         <img src="/itulah.png" alt="" className="w-52 sm:w-72 md:w-250" />
       </div>
-    </main>
+    </div>
   );
 }

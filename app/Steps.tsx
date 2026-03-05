@@ -1,10 +1,12 @@
 export default function Steps() {
   return (
     <main
-      className="relative bg-[linear-gradient(to_right,#FFFFFF_0%,#F6B562_50%,#FFFFFF_100%)] min-h-213.5 m-7 rounded-3xl 
-                flex flex-col items-center 
-                px-24 py-28 gap-20 
-                shadow-xl overflow-hidden text-black"
+      className="relative 
+      bg-[linear-gradient(to_right,#FFFFFF_0%,#FFC674_50%,#FFFFFF_100%)] 
+      min-h-213.5 m-7 rounded-3xl 
+      flex flex-col items-center 
+      px-24 py-28 gap-20 
+      shadow-xl overflow-hidden text-black"
     >
       <div className="flex flex-col gap-8 items-center text-center max-w-4xl">
         <h1 className="text-7xl font-black">
