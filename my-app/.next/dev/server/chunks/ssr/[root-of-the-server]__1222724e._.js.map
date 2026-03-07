@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/ASUS%2014/Documents/PROGRAMMING%20FOLDER/PROJECT/KodeinEduCenterProject/my-app/app/page.tsx"],"sourcesContent":["import Image from \"next/image\";\n\n\nexport default function Home() {\n  return (\n    <main className=\"bg-white h-screen text-black\">\n    <h1>Welcome to the Home Page</h1>\n    \n    </main>\n  );\n}\n"],"names":[],"mappings":";;;;;;AAGe,SAAS;IACtB,qBACE,8OAAC;QAAK,WAAU;kBAChB,cAAA,8OAAC;sBAAG;;;;;;;;;;;AAIR"}}]
-}
