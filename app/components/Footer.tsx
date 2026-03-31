@@ -1,12 +1,12 @@
 export default function Footer() {
   return (
     <footer className="bg-white text-black h-fit max-w-full">
-      <div className="flex flex-row justify-between items-start p-10">
+      <div className="flex md:flex-row flex-col justify-between items-start p-10">
         <div>
           <img src="logoKodeinEdu.png" alt="" className="max-w-61.75" />
         </div>
 
-        <div className="flex flex-row gap-20 text-xl">
+        <div className="flex md:flex-row flex-col gap-20 text-xl">
           <div>
             <p className=" font-semibold pb-5">Tentang</p>
             <p>Home</p>

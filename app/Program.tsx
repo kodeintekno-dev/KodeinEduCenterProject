@@ -78,20 +78,23 @@ export default function Program() {
   return (
     <main className="relative bg-gray-200 m-7 rounded-3xl p-16 overflow-hidden shadow-xl h-[850px]">
       <img
-        src="/Group-37.png"
+        src="/"
         alt=""
         className="absolute top-0 right-0 w-[520px] pointer-events-none select-none z-0"
       />
 
       <img
-        src="/Group-47.png"
+        src="/desktop/program.svg"
         alt=""
-        className="absolute bottom-0 left-0 w-[520px] object-cover rounded-xl pointer-events-none select-none z-0"
+        className="absolute top-0 left-0 w-152.5 object-cover rounded-xl pointer-events-none select-none z-0"
       />
 
       {/* HEADER */}
       <div className="flex justify-center items-center mb-14">
-        <h1 className="text-5xl lg:text-7xl font-black text-black">
+        <h1 className="text-[45px] lg:text-[65px] 
+            leading-tight md:leading-16.25 
+            tracking-tight md:tracking-[-3%] 
+            font-black text-black z-10">
           Program Kami
         </h1>
       </div>

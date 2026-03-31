@@ -35,19 +35,42 @@ const data = [
 
 export default function FaQ() {
   return (
-    <div className="bg-[linear-gradient(to_right,#FFFFFF_0%,#F6B562_50%,#FFFFFF_100%)] min-h-screen m-7 rounded-3xl flex items-center justify-between gap-16 p-12">
-      <div className="flex flex-col gap-7 text-black justify-center">
-        <h1 className="text-[66px] font-bold">Pertanyaan yang sering muncul</h1>
-        <p className="text-[20px]">
+    <div className="relative bg-[linear-gradient(to_right,#FFFFFF_0%,#F6B562_50%,#FFFFFF_100%)] min-h-screen m-7 rounded-3xl flex flex-col items-center md:justify-between lg:flex lg:flex-row gap-16 p-12 overflow-hidden">
+      <img
+        src="/desktop/QnA-1.svg"
+        alt=""
+        className="absolute top-0 left-0 w-152.5 object-cover rounded-xl pointer-events-none select-none z-0"
+      />
+      <div className="flex flex-col gap-7 text-black justify-center z-10">
+        <h1
+          className="text-[45px] lg:text-[65px] 
+            leading-tight md:leading-16.25 
+            tracking-tight md:tracking-[-3%] 
+            font-black"
+        >
+          Pertanyaan yang sering muncul
+        </h1>
+        <p
+          className="text-black 
+            text-[15px] md:text-[20px] 
+            leading-relaxed md:leading-6.25 
+            w-full md:w-130"
+        >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
       </div>
 
-      <div className="flex flex-col gap-5 w-full">
+      <div className="flex flex-col gap-5 w-full z-10">
         {data.map((d) => (
           <Questions key={d.id} data={d} />
         ))}
       </div>
+
+      <img  
+        src="/desktop/QnA-2.svg"
+        alt=""
+        className="absolute bottom-0 left-0 w-152.5 object-cover rounded-xl pointer-events-none select-none z-0"
+      />
     </div>
   );
 }

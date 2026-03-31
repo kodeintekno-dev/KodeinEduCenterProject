@@ -83,8 +83,18 @@ export default function Testimonial() {
       {/* HEADER */}
       <div className="flex justify-between items-center mb-10">
         <div>
-          <h1 className="text-4xl font-bold text-white">Apa kata mereka?</h1>
-          <p className="text-gray-300 mt-2">
+          <h1
+            className="text-[45px] lg:text-[65px] 
+            leading-tight md:leading-16.25 
+            tracking-tight md:tracking-[-3%] 
+            font-black"
+          >
+            Apa kata mereka?
+          </h1>
+          <p className="text-gray-300 
+            text-[15px] md:text-[20px] 
+            leading-relaxed md:leading-6.25 
+            w-full md:w-130 mt-2">
             Testimonial dari orang tua siswa kami
           </p>
         </div>

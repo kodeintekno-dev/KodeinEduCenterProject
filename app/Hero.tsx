@@ -1,33 +1,37 @@
+"use client";
+import Image from "next/image";
+
 export default function Hero() {
   return (
     <main
       className="bg-[linear-gradient(to_right,#F6B562_50%,#FFFFFF_100%)] 
       min-h-screen md:min-h-213.5 
+      max-w-full
       text-black 
       m-4 md:m-7 
       rounded-3xl 
-      flex flex-col md:flex-row 
+      flex flex-col lg:flex-row 
       justify-between 
       overflow-hidden"
     >
       <div
         className="Herolefttext 
         flex flex-col 
-        gap-6 md:gap-8.25 
-        px-6 sm:px-10 md:px-20 lg:px-35 
-        py-10 md:py-0 
+        gap-6 lg:gap-8.25 
+        px-6 md:px-20 lg:px-35 
+        py-10 lg:py-0 
         justify-center 
         max-w-xl"
       >
         <div
           className="flex flex-col 
-          w-full md:w-142.75 
-          gap-6 md:gap-8.25"
+          w-full md:w-full lg:w-142.75 
+          gap-6 lg:gap-8.25"
         >
           <h1
-            className="text-3xl sm:text-4xl md:text-5xl lg:text-[65px] 
-            leading-tight md:leading-16.25 
-            tracking-tight md:tracking-[-3%] 
+            className="text-3xl md:text-5xl lg:text-[65px] 
+            leading-tight 
+            tracking-tight 
             font-black"
           >
             Siap Kerja dengan Skill Digital yang Relevan
@@ -35,7 +39,7 @@ export default function Hero() {
 
           <h2
             className="text-black 
-            text-base sm:text-lg md:text-[20px] 
+            text-base md:text-lg lg:text-[20px] 
             leading-relaxed md:leading-6.25"
           >
             Tingkatkan skill digital Anda dengan metode belajar terarah, materi
@@ -44,8 +48,8 @@ export default function Hero() {
         </div>
 
         <button
-          className="w-fit md:w-59.25 
-          px-8 md:px-10 
+          className="w-full md:w-full lg:w-fit lg:w-59.25 
+          px-8 lg:px-10 
           py-3.5 
           text-base md:text-[18px] 
           font-semibold 
@@ -55,23 +59,39 @@ export default function Hero() {
           cursor-pointer 
           transition 
           text-white 
-          rounded-lg"
+          rounded-full lg:rounded-lg"
         >
           Konsultasi Gratis
         </button>
       </div>
 
-      <div
-        className="Herorightimg 
-        flex justify-center md:justify-end 
-        items-center 
-        mt-8 md:mt-0"
-      >
+      <div>
         <img
-          src="/Vector.png"
+          src="/desktop/Hero.svg"
           alt="Hero Image"
-          className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg 
+          width={500}
+          height={500}
+          className=" hidden lg:block w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg 
           h-auto md:h-full 
+          object-contain md:object-cover"
+        />
+        
+        <img
+          src="/tab/Hero.svg"
+          alt="Hero Image"
+          width={500}
+          height={500}
+          className="hidden md:block lg:hidden w-full max-w md:max-w
+          h-auto md:h-full 
+          object-contain md:object-cover"
+        />
+
+        <img
+          src="/phone/Hero.svg"
+          alt="Hero Image"
+          width={500}
+          height={500}
+          className=" md:hidden w-full max-w
           object-contain md:object-cover"
         />
       </div>
