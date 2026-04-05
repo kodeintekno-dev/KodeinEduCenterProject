@@ -79,7 +79,7 @@ export default function Testimonial() {
   };
 
   return (
-    <main className="bg-black m-7 rounded-3xl p-16 overflow-hidden">
+    <main className="bg-black my-4 lg:m-7 lg:rounded-3xl p-16 overflow-hidden">
       {/* HEADER */}
       <div className="flex justify-between items-center mb-10">
         <div>
@@ -91,10 +91,12 @@ export default function Testimonial() {
           >
             Apa kata mereka?
           </h1>
-          <p className="text-gray-300 
+          <p
+            className="text-gray-300 
             text-[15px] md:text-[20px] 
             leading-relaxed md:leading-6.25 
-            w-full md:w-130 mt-2">
+            w-full md:w-130 mt-2"
+          >
             Testimonial dari orang tua siswa kami
           </p>
         </div>

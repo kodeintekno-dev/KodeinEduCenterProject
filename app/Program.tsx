@@ -76,7 +76,7 @@ export default function Program() {
   };
 
   return (
-    <main className="relative bg-gray-200 m-7 rounded-3xl p-16 overflow-hidden shadow-xl h-[850px]">
+    <main className="relative bg-gray-200 my-4 lg:m-7 lg:rounded-3xl p-16 overflow-hidden shadow-xl h-[850px]">
       <img
         src="/"
         alt=""
@@ -91,10 +91,12 @@ export default function Program() {
 
       {/* HEADER */}
       <div className="flex justify-center items-center mb-14">
-        <h1 className="text-[45px] lg:text-[65px] 
+        <h1
+          className="text-[45px] lg:text-[65px] 
             leading-tight md:leading-16.25 
             tracking-tight md:tracking-[-3%] 
-            font-black text-black z-10">
+            font-black text-black z-10"
+        >
           Program Kami
         </h1>
       </div>

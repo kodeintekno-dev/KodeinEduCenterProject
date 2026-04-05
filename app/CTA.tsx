@@ -1,6 +1,6 @@
 export default function CTA() {
   return (
-    <main className="relative bg-[linear-gradient(to_bottom,#FFC067_0%,#F6B562_50%,#FFFFFF_100%)] min-h-screen m-7 rounded-3xl flex flex-col justify-center items-center px-20 py-20 gap-16 shadow-xl overflow-hidden">
+    <main className="relative bg-[linear-gradient(to_bottom,#FFC067_0%,#F6B562_50%,#FFFFFF_100%)] min-h-screen my-4 lg:m-7 lg:rounded-3xl flex flex-col justify-center items-center px-20 py-20 gap-16 shadow-xl overflow-hidden">
       <img
         src="/desktop/gabung-kiri.svg"
         alt=""
@@ -19,7 +19,7 @@ export default function CTA() {
         className="hidden md:block lg:hidden absolute bottom-0 left-0 w-150 z-0"
       />
 
-       <img
+      <img
         src="/phone/gabung.svg"
         alt=""
         className="block md:hidden lg:hidden absolute bottom-0 left-0 w-150 z-0"

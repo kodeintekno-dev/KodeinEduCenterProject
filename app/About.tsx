@@ -4,8 +4,8 @@ export default function About() {
       className="relative 
       bg-[linear-gradient(to_right,#FFFFFF_0%,#FFC674_50%,#FFFFFF_100%)] 
       min-h-screen md:min-h-213.5 
-      m-4 md:m-7 
-      rounded-3xl 
+      my-4 lg:m-7 
+      lg:rounded-3xl 
       flex flex-col md:flex-row 
       justify-between items-center 
       py-12 md:py-20 
@@ -63,8 +63,6 @@ export default function About() {
         <div
           className="flex flex-col 
           gap-6 
-          mt-6 
-          ml-0 md:ml-20 
           items-start"
         >
           <div className="flex gap-5 md:gap-8.25 items-start md:items-center">
@@ -126,7 +124,11 @@ export default function About() {
         opacity-20 md:opacity-100 
         pointer-events-none"
       >
-        <img src="/itulah.png" alt="" className="hidden lg:block w-52 sm:w-72 md:w-250" />
+        <img
+          src="/itulah.png"
+          alt=""
+          className="hidden lg:block w-52 sm:w-72 md:w-250"
+        />
       </div>
     </main>
   );

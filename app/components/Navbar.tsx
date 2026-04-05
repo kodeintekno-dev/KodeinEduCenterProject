@@ -15,36 +15,26 @@ export default function NavBar() {
             <img
               src="logoKodeinEdu.png"
               alt=""
-              className="w-28 sm:w-36 md:w-42 
-        h-fit object-contain"
+              className="w-28 md:w-42 h-fit object-contain"
             />
           </a>
         </div>
 
         <div>
-          <ul
-            className="flex flex-row 
-      gap-6 sm:gap-10 md:gap-15 
-      items-center"
-          >
-            <div
-              className="flex items-center 
-        gap-1 cursor-pointer"
-            >
+          <ul className="hidden md:flex flex-row gap-6 md:gap-8 items-center">
+            <div className="flex items-center gap-1 cursor-pointer">
               <li>About</li>
               <IoIosArrowDown className="text-sm md:text-base" />
             </div>
 
-            <div
-              className="flex items-center 
-        gap-1 cursor-pointer"
-            >
+            <div className="flex items-center gap-1 cursor-pointer">
               <li>Program</li>
               <IoIosArrowDown className="text-sm md:text-base" />
             </div>
 
             <li className="cursor-pointer">Contact</li>
           </ul>
+          <img src="/phone/hamburger.svg" alt="" className="md:hidden" />
         </div>
       </nav>
     </header>
